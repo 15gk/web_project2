@@ -1,17 +1,27 @@
+html {
+font-size: 22px;
+}
+
 * {
     font-family: monospace;
     
+}
+main {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
     font-size: 22px;
     align-self: start;
     border: 3px solid black;
     }
+button, input, textarea, select {
+    font:inherit;
+} 
 h1, h2 {
     color:blueviolet
 }
 p {
-   color:purple; 
+   color:purple!important;
 }
 .gray{
     color :gray;
